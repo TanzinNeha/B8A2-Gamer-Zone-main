@@ -527,3 +527,34 @@ text-align: center;
         color: #d250e4;
      }
 }
+
+/***footer*/
+.footer{
+    background-color: rgb(185, 186, 255);
+    padding: 50px;
+    margin-top: 20px;
+}
+.logo{
+    justify-content: center;
+    align-items: center;
+}
+.footer-icon{
+   text-align: center;
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 600px) {
+    .footer-content{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        font-size: small;
+    }
+}
