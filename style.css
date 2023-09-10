@@ -1,0 +1,529 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Header styles */
+header {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Logo styles */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px; /* Adjust the logo width as needed */
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 20px;
+}
+
+/* Menu styles */
+.menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu li {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.fa-youtube{
+    color: red;
+}
+.fa-play{
+    color: #ff1ac6;
+}
+.fa-download{
+    color: #d250e4;
+}
+/* Button with icon styles */
+.button a {
+    background-color: #eff7ff;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.button a i {
+    margin-right: 5px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .navbar {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        text-align: center;
+    }
+.logo{
+    justify-content: center;
+        text-align: center;
+}
+    .menu {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .menu li {
+        margin-right: 0;
+    }
+    .button{
+        text-align: center;
+    }
+}
+
+/* section one */
+.flex-container {
+    display: flex;
+    flex-direction: row; 
+    margin-top: 20px;
+    width: 100%;
+    gap: 50px;
+}
+
+/* Style for the first div with text and buttons */
+.text-button-div {
+    background-image: url('/images/Group\ 14.png');
+    background-size: contain;
+    color: rgb(0, 0, 0);
+    padding: 80px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+
+.text-button-div h2 {
+    font-size: 24px;
+}
+
+.text-button-div p {
+    font-size: 18px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button1 {
+    background-color: #efa6f8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px;
+    border-radius: 20px;
+}
+.button2 {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+/* Style for the second div with an image */
+.image-div {
+    text-align: center;
+    padding: 20px;
+}
+
+.image-div img {
+    margin-top: 50px;
+    max-width: 80%;
+    height: auto;
+}
+.goat {
+    font-size: 40px; 
+    font-weight: bolder; 
+    color: rgba(171, 17, 218, 0.719); 
+    text-transform: uppercase; 
+   
+}
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .flex-container {
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-button-div {
+        padding: 10px;
+        margin-left: 0;
+        font-size: 10px;
+    }
+
+    .text-button-div h2 {
+        font-size: 10px;
+    }
+
+    .text-button-div p {
+        font-size: 5px;
+    }
+
+    .button1 {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+}
+
+
+/*****section one**/
+.section2{
+    margin-top: 20px;
+    background-color: #fce7ff;
+    width: 100%;
+    
+}
+/* Container styles */
+.container {
+    display: flex;
+    flex-direction: row; 
+    margin-top: 20px;
+    width: 100%;
+    gap: 50px;
+}
+
+/* Style for the div containing the image */
+.image-div {
+    flex: 1; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image-div img {
+    max-width: 80%; 
+    margin: 0 auto; 
+}
+
+/* Style for the div containing the text */
+.text-div {
+    flex: 1; 
+    padding: 20px;
+    box-sizing: border-box; 
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+    }
+   .text-div{
+        padding: 10px;
+        margin-left: 0;
+        font-size: 5px;
+        text-align: center;
+    }
+
+    .text-div h2 {
+        font-size: 10px;
+    }
+
+    .text-div p {
+        font-size: 10px;
+    }
+
+    .button1 {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+/****section3***/
+/* Container3 styles */
+.text-section{
+text-align: center;
+}
+.text-span{
+    margin-left: 5px;
+    color: #d250e4;
+}
+.section3{
+    margin-left: 30px;
+    margin-top: 50px;
+    
+}
+.container3 {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+/* Style for each div containing an image */
+.box {
+
+    flex: 0 1 calc(25% - 20px);
+    margin: 10px; 
+    box-sizing: border-box; 
+}
+
+.box img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+}
+@media screen and (max-width: 600px) {
+    .container3 {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .text-section{
+        font-size: 8px;
+        text-align: center;
+    }
+    .box h5{
+        font-size: small;
+        text-align: center;
+    }
+    .box img{
+        margin-left: 100px;
+        max-width: 50%;
+    }
+}
+
+/**************/
+.section4{
+    margin-top: 50px;
+   text-align: center;
+}
+.container4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-div1 {
+    flex: 1; 
+    padding: 20px;
+    box-sizing: border-box;
+   text-align: center;
+   margin-top: 50px;
+   
+}
+
+/* Style for the div containing the main image */
+.image-div1 {
+    flex: 1; 
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* Style for the main image */
+.image-div1 img {
+    max-width: 50%;
+    height: auto;
+}
+
+/* Style for the smaller image */
+.small-image {
+    position: absolute;
+    bottom: 1px; 
+    margin-left: 100px;
+}
+
+.small-image img {
+    max-width: 140px; 
+    height: auto;
+}
+.text-span2{
+    color: #d250e4;
+    font-size: 24px;
+    font-weight: bolder;
+}
+@media screen and (max-width: 600px) {
+    .container4 {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        text-align: center;
+    }
+
+.image-div1 img {
+    max-width: 60%;
+    height: auto;
+}
+
+.small-image {
+    position: absolute;
+    bottom: 1px; 
+    margin-left: 50px;
+    
+}
+
+.small-image img {
+    max-width: 100px; 
+    height: auto;
+}
+.text-div1 {
+    align-items: center;
+    font-size: small;
+}
+}
+
+
+
+/*****section one**/
+.section5{
+    margin-top: 20px;
+    background-color: #ff1ac6;
+    width: 100%;
+    
+}
+/* Container styles */
+.container5 {
+    display: flex;
+    flex-direction: row; 
+    margin-top: 20px;
+    width: 100%;
+    gap: 50px;
+}
+
+/* Style for the div containing the image */
+.image-div5 {
+    flex: 1; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image-div5 img {
+    
+    max-width: 100%; 
+    margin: 0 auto; 
+}
+
+/* Style for the div containing the text */
+.text-div5 {
+    color: aliceblue;
+    flex: 1; 
+    padding: 50px;
+    box-sizing: border-box; 
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .container5 {
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+    }
+   .text-div5{
+        padding: 10px;
+        margin-left: 0;
+        font-size: 5px;
+        text-align: center;
+    }
+
+    .text-div5 h2 {
+        text-align: center;
+        color: aliceblue;
+        font-size: 10px;
+    }
+
+    .text-div5 pre {
+        text-align: center;
+        color: aliceblue;
+        font-size: 10px;
+    }
+
+    .button1 {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    .image-div5 img {
+        margin-top: 0;
+        margin-left: 20px;
+        max-width: 100%; 
+     
+    }
+    
+}
+
+/* Style for the container */
+.button-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+/* Style for each button */
+.button-last img{
+   height: 50px;
+}
+.btn-last {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    box-shadow: #d250e4;
+    border-radius: 100px;
+    gap: 10px;
+}
+.btn-last:hover {
+    background-color: #ffffff; 
+    border: 2px solid salmon;
+}
+
+.btn-last-p{
+    margin-top: 15px;
+}
+
+.btn-last:hover p{
+   color: #d250e4;
+}
+@media screen and (max-width: 600px) {
+    .button-container1 {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 0;
+    }
+    .button-last img{
+        height: 40px;
+     }
+     .btn-last-p{
+        margin-top: 15px;
+        font-size: smaller;
+    }
+    .btn-last:hover p{
+        color: #d250e4;
+     }
+}
